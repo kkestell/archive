@@ -1,0 +1,7 @@
+[Unit]
+Description=Archive
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/archive.sh
+WorkingDirectory=%h/.local/bin/
